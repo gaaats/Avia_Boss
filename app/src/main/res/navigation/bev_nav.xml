@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bev_nav"
+    app:startDestination="@id/mainertttFragment">
+
+    <fragment
+        android:id="@+id/mainertttFragment"
+        android:name="com.tutotoons.app.fruitsie.fragm.MainertttFragment"
+        android:label="fragment_mainerttt"
+        tools:layout="@layout/fragment_mainerttt" >
+        <action
+            android:id="@+id/action_mainertttFragment_to_coontryyyFragment"
+            app:destination="@id/coontryyyFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/coontryyyFragment"
+        android:name="com.tutotoons.app.fruitsie.fragm.CoontryyyFragment"
+        android:label="fragment_coontryyy"
+        tools:layout="@layout/fragment_coontryyy" >
+        <action
+            android:id="@+id/action_coontryyyFragment_to_secccmiannFragment"
+            app:destination="@id/secccmiannFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/secccmiannFragment"
+        android:name="com.tutotoons.app.fruitsie.fragm.SecccmiannFragment"
+        android:label="fragment_secccmiann"
+        tools:layout="@layout/fragment_secccmiann" >
+        <action
+            android:id="@+id/action_secccmiannFragment_to_befBefFragFragment"
+            app:destination="@id/befBefFragFragment" />
+        <action
+            android:id="@+id/action_secccmiannFragment_to_filFilFilFragFragment"
+            app:destination="@id/filFilFilFragFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/befBefFragFragment"
+        android:name="com.tutotoons.app.fruitsie.fragm.BefBefFragFragment"
+        android:label="fragment_bef_bef_frag"
+        tools:layout="@layout/fragment_bef_bef_frag" >
+        <action
+            android:id="@+id/action_befBefFragFragment_to_filFilFilFragFragment"
+            app:destination="@id/filFilFilFragFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/filFilFilFragFragment"
+        android:name="com.tutotoons.app.fruitsie.fragm.FilFilFilFragFragment"
+        android:label="fragment_fil_fil_fil_frag"
+        tools:layout="@layout/fragment_fil_fil_fil_frag" />
+</navigation>

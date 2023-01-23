@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gamer_n"
+    app:startDestination="@id/start1Fragment">
+
+    <fragment
+        android:id="@+id/start1Fragment"
+        android:name="com.tutotoons.app.fruitsie.fragm.Start1Fragment"
+        android:label="fragment_start1"
+        tools:layout="@layout/fragment_start1" >
+        <action
+            android:id="@+id/action_start1Fragment_to_start2Fragment"
+            app:destination="@id/start2Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/start2Fragment"
+        android:name="com.tutotoons.app.fruitsie.fragm.Start2Fragment"
+        android:label="fragment_start2"
+        tools:layout="@layout/fragment_start2" >
+        <action
+            android:id="@+id/action_start2Fragment_to_start3Fragment"
+            app:destination="@id/start3Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/start3Fragment"
+        android:name="com.tutotoons.app.fruitsie.fragm.Start3Fragment"
+        android:label="fragment_start3"
+        tools:layout="@layout/fragment_start3" >
+        <action
+            android:id="@+id/action_start3Fragment_to_start1Fragment"
+            app:destination="@id/start1Fragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/start1Fragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>
