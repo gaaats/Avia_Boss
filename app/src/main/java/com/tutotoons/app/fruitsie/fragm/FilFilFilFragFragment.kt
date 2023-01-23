@@ -15,6 +15,7 @@ import com.tutotoons.app.fruitsie.R
 import com.tutotoons.app.fruitsie.gameactiv.GggggaamemeActivity
 import com.tutotoons.app.fruitsie.mainaplication.MainAplication
 import com.tutotoons.app.fruitsie.mainaplication.MainAplication.Companion.aps_idddddd
+import com.tutotoons.app.fruitsie.mainaplication.MainAplication.Companion.paaaaaaack
 import com.tutotoons.app.fruitsie.vebvvv.BrovVebActivity
 import org.koin.android.ext.android.inject
 import org.koin.core.qualifier.named
@@ -47,7 +48,7 @@ class FilFilFilFragFragment : Fragment() {
 
         val wvgtgtgtgtgt = ggtgokkgttgk.getString("wv", null)
         val mainIdfrfrrfrf = ggtgokkgttgk.getString("mainId", null)
-        val packtgtgtgtgt = "com.superking.parchisi.stare"
+        val packtgtgtgtgt = paaaaaaack
         val buildVerssssssss = Build.VERSION.RELEASE
         val myTrIdffrrfrf = ggtgokkgttgk.getString(MainAplication.instIdfrfrf, null)
         val trackerParamsfrffrrf = MyTracker.getTrackerParams()

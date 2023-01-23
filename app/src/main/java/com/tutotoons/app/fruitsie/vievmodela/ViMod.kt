@@ -50,14 +50,12 @@ class ViMod(
 
     suspend fun getDataaaaaaaa() {
         val ressss = mainRepository.getDattttttttt().body()!!
-        Log.d("lolo", "list GEO is $ressss")
         fr5rf5rf5.postValue(ressss)
         getDevDataaaaaaaaaa()
     }
 
     suspend fun getDevDataaaaaaaaaa() {
         val ressss = devRepo.getDataDevvvvvvvv().body()
-        Log.d("lolo", "list GEO is ${ressss}")
         gtgtggt.postValue(ressss!!)
     }
 
